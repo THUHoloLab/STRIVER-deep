@@ -41,7 +41,7 @@ The following figure shows the experimental reconstruction of a xylophyta dicoty
 <img src="imgs/comparison.gif", width='800'>
 </p>
 
-The following table summarizes the average amplitude PSNR (dB) under varying sample translation speeds. ViDNet yields competitive performance even when the sample is moving **almost an order of magnitude faster**!:wink:
+The following table summarizes the average amplitude PSNR (dB) under varying sample translation speeds. ViDNet yields competitive performance even when the sample is moving **almost an order of magnitude faster**! :wink:
 
 | Speed (pixel/frame) | 3DTV              | DRUNet + 3DTV | FastDVDnet + 3DTV | ViDNet + 3DTV     |
 | :----:              | :----:            | :----:        | :----:            | :----:            |
