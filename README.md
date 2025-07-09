@@ -36,7 +36,7 @@ Deep PnP algorithms are implemented with Python in Spyder. Experimental pre- and
 
 ##### 1. Prepare the environment
 
-- Download the necessary packages according to [`requirements.txt`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/requirement.txt).
+- Download the necessary packages according to [`requirements.txt`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/requirements.txt).
 
 ##### 2. Download the pretrained models
 
