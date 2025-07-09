@@ -1,12 +1,12 @@
 <div align="center">
 <h1> Video Plug-and-Play Optimization for Time-Resolved Computational Microscopy </h1>
 
-**[Yunhui Gao](https://github.com/Yunhui-Gao)** (gyh21@mails.tsinghua.edu.cn) and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)** (clc@tsinghua.edu.cn)
+**[Yunhui Gao](https://github.com/Yunhui-Gao)** and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)**
 
 :school: ***[HoloLab](http://www.holoddd.com/)**, Tsinghua University*
 
 
-*Manuscript submitted. The full version of the code will be released upon publication.*
+:scroll: **Publication Page** **|** :microscope: **Experimental Dataset** **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
 
 <p align="center">
 <img src="imgs/principle.png", width='800'>
@@ -15,6 +15,44 @@
 
 Computational microscopy combines advances in optical hardware and signal processing to push the boundaries of imaging resolution and functionality. However, acquiring extended information often comes at the expense of temporal resolution. Here, we present a model-based deep learning framework for **time-resolved imaging in multi-shot computational microscopy**. Building upon the plug-and-play (PnP) optimization theory, our approach integrates the low-level spatiotemporal priors learned from large-scale video datasets with the physical model of an optimized measurement scheme, enabling accurate, time-resolved reconstruction of dynamic scenes. Using lensless ptychographic microscopy as an example, we experimentally demonstrate high-speed holographic imaging of an order of magnitude faster sample dynamics without compromising quality. Additionally, we show that the proposed framework enables high-throughput, label-free imaging of various biological activities of freely moving organisms, such as paramecia and rotifers, with a sensor-limited space-bandwidth-time product of 227 megapixels per second. The presented approach provides a promising solution to time-resolved computational microscopy across a broad range of imaging modalities.
 
+
+## News
+
+
+- **2025.07.09** &nbsp; :fire: Simulation code released.
+
+- **2025.07.09** &nbsp; :fire: Pretrained models are released. Click [**here**](https://github.com/THUHoloLab/ViDNet) for more details.
+
+
+## Requirements
+
+Deep PnP algorithms are implemented with Python in Spyder. Experimental pre- and post-processing codes are written in MATLAB.
+
+- MATLAB R2022b or newer versions
+- Python 3.9, PyTorch >= 2.3.1
+- Platforms: Windows 10 / 11
+
+## Quick Examples
+
+##### 1. Prepare the environment
+
+- Download the necessary packages according to [`requirements.txt`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/requirement.txt).
+
+##### 2. Download the pretrained models
+
+- Download the pretrained models for ViDNet and the baseline networks, which can be found [**here**](https://github.com/THUHoloLab/ViDNet/releases). Then, move the `.pth` files into the corresponding folders in [`models`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/models/). Note that for the baseline networks, FastDVDnet has been modified for grayscale video denoising and with batch normalization layers removed. DRUNet has adopted the original architecture and pretrained model provided by the authors (click [**here**](https://github.com/cszn/DPIR/tree/master) for more details).
+
+##### 3. Download the simulation and experimental dataset
+
+- Follow the instructions [**here**](https://github.com/THUHoloLab/STRIVER-deep/blob/master/data/README.md) to download and prepare the dataset.
+
+##### 4. Run demo codes
+
+- **Quick demonstration with simulated data.** Run [`demo_sim.py`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/demo_sim.py) with default parameters.
+<!-- 
+- **Demonstration with experimental data.** First run [`demo_exp_probe_recovery.m`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/demo_exp_probe_recovery.m) for TV-regularized blind ptychographic reconstruction to retrieve the probe profile and an initial estimate of the sample field. Then run [`demo_exp.py`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/demo_exp.py) for the deep PnP reconstruction.
+- **Experimental comparison.** 
+-->
 
 
 ## Selective Results
@@ -56,3 +94,19 @@ The following table summarizes the average amplitude PSNR (dB) under varying sam
 | 8                   | 13.30             | 13.65         | 13.37             | **17.00 (+3.35)** |
 | 9                   | 13.24             | 13.63         | 13.18             | **16.55 (+2.92)** |
 
+<!--
+## Citation
+
+```BibTex
+@article{gao2025model,
+  title={Model-based deep learning enables time-resolved computational microscopy},
+  author={Gao, Yunhui and Cao, Liangcai},
+  journal={xxxx},
+  volume={xxxx},
+  number={xxxx},
+  pages={xxxx},
+  year={2025},
+  publisher={xxxx}
+}
+```
+-->
