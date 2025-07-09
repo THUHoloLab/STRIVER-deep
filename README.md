@@ -6,7 +6,7 @@
 :school: ***[HoloLab](http://www.holoddd.com/)**, Tsinghua University*
 
 
-:scroll: **Publication Page** **|** :microscope: **Experimental Dataset** **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
+:scroll: **Publication Page** **|** :microscope: **Experimental Dataset** **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#Selective-results)
 
 <p align="center">
 <img src="imgs/principle.png", width='800'>
