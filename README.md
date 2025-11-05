@@ -6,7 +6,7 @@
 :school: ***[HoloLab](http://www.holoddd.com/)**, Tsinghua University*
 
 
-:scroll: **Publication Page** **|** :microscope: **Experimental Dataset** **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
+:scroll: **Publication Page** **|** :microscope: [**Experimental Dataset**](https://doi.org/10.5281/zenodo.17523561) **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
 
 <p align="center">
 <img src="imgs/principle.png", width='800'>
@@ -49,10 +49,9 @@ Deep PnP algorithms are implemented with Python in Spyder. Experimental pre- and
 ##### 4. Run demo codes
 
 - **Quick demonstration with simulated data.** Run [`demo_sim.py`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/demo_sim.py) with default parameters.
-<!-- 
 - **Demonstration with experimental data.** First run [`demo_exp_probe_recovery.m`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/demo_exp_probe_recovery.m) for TV-regularized blind ptychographic reconstruction to retrieve the probe profile and an initial estimate of the sample field. Then run [`demo_exp.py`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/demo_exp.py) for the deep PnP reconstruction.
-- **Experimental comparison.** 
--->
+- **Experimental comparison.** Run `demo_exp_comparison_eXgY.py` with default parameters, where `X` and `Y` denote the experiment and group indices of the dataset.
+
 
 
 ## Selective Results
