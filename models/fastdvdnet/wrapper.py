@@ -23,7 +23,7 @@ class VideoDenoiserFastDVDnet():
         self.model_temp = FastDVDnet(num_input_frames=NUM_IN_FR_EXT)
         
         self.model_temp = self.model_temp.to(device)
-        self.model_temp.load_state_dict(torch.load(model_path), strict=True)
+        self.model_temp.load_state_dict(torch.load(model_path, weights_only=True), strict=True)
 		
 		# Sets the model in evaluation mode (e.g. it removes BN)
         self.model_temp.eval()

@@ -21,7 +21,7 @@ class ImageDenoiserDRUNet():
 		self.model = UNetRes(in_nc=n_channels+1, out_nc=n_channels, nc=[64, 128, 256, 512], nb=4, act_mode='R', downsample_mode="strideconv", upsample_mode="convtranspose")
         
 		# Load saved weights
-		self.model.load_state_dict(torch.load(model_path), strict=True)
+		self.model.load_state_dict(torch.load(model_path, weights_only=True), strict=True)
 		self.model.eval()
 		for k, v in self.model.named_parameters():
 			v.requires_grad = False

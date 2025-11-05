@@ -6,7 +6,7 @@
 :school: ***[HoloLab](http://www.holoddd.com/)**, Tsinghua University*
 
 
-:scroll: **Publication Page** **|** :microscope: **Experimental Dataset** **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#Selective-results)
+:scroll: **Publication Page** **|** :microscope: **Experimental Dataset** **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
 
 <p align="center">
 <img src="imgs/principle.png", width='800'>
@@ -36,7 +36,7 @@ Deep PnP algorithms are implemented with Python in Spyder. Experimental pre- and
 
 ##### 1. Prepare the environment
 
-- Download the necessary packages according to [`requirements.txt`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/requirements.txt).
+- Download the necessary packages according to [`requirements.txt`](https://github.com/THUHoloLab/STRIVER-deep/blob/master/requirement.txt).
 
 ##### 2. Download the pretrained models
 
@@ -94,7 +94,7 @@ The following table summarizes the average amplitude PSNR (dB) under varying sam
 | 8                   | 13.30             | 13.65         | 13.37             | **17.00 (+3.35)** |
 | 9                   | 13.24             | 13.63         | 13.18             | **16.55 (+2.92)** |
 
-<!--
+
 ## Citation
 
 ```BibTex
@@ -109,4 +109,3 @@ The following table summarizes the average amplitude PSNR (dB) under varying sam
   publisher={xxxx}
 }
 ```
--->

@@ -32,7 +32,7 @@ class VideoDenoiserViDNet():
                                  downsample_mode='strideconv')
 		
         self.model_temp = self.model_temp.to(device)
-        self.model_temp.load_state_dict(torch.load(model_path), strict=True)
+        self.model_temp.load_state_dict(torch.load(model_path, weights_only=True), strict=True)
 		
         # set the model in evaluation mode
         self.model_temp.eval()

@@ -11,7 +11,7 @@ data/
 └── sim/
 ```
 
-**Simulation data:** Download a zip file of the pre-processed video clips at [here](https://cloud.tsinghua.edu.cn/f/8a453ad810f54218937a/?dl=1) or contact the authors through email. Then unzip file `sim.zip` at `data/sim`. The video sequences used for simulation are acquired from a publicly available dataset (click [here](https://media.xiph.org/video/derf/) to visit the original website). 
+**Simulation data:** Download a zip file of the pre-processed video clips at [here](https://github.com/THUHoloLab/STRIVER-deep/releases/tag/v0.0) or contact the authors through email. Then unzip file `sim_dataset.zip` at `data/sim`. The video sequences used for simulation are acquired from a publicly available dataset (click [here](https://media.xiph.org/video/derf/) to visit the original website). 
 
 
-**Experimental data:** The experimental data will be released prior to publication of the manuscript.
+**Experimental data:** The experimental data can be downloaded via Zenodo at [https://doi.org/10.5281/zenodo.17523561](https://doi.org/10.5281/zenodo.17523561). Then unzip the `.zip` files at `data/exp`.
