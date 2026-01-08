@@ -6,7 +6,7 @@
 :school: ***[HoloLab](http://www.holoddd.com/)**, Tsinghua University*
 
 
-:scroll: **Publication Page** **|** :microscope: [**Experimental Dataset**](https://doi.org/10.5281/zenodo.17523561) **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-results)
+:scroll: [**Publication Page**](https://doi.org/10.1186/s43074-025-00222-2) **|** :microscope: [**Experimental Dataset**](https://doi.org/10.5281/zenodo.17523561) **|** :key: [**Pretrained Models**](https://github.com/THUHoloLab/ViDNet) **|**  :dart: [**Selective Results**](#-Selective-Results)
 
 <p align="center">
 <img src="imgs/principle.png", width='800'>
@@ -18,6 +18,9 @@ Computational microscopy combines advances in optical hardware and signal proces
 
 ## News
 
+- **2026.01.07** &nbsp; :mega: Paper published in [**PhotoniX**](https://doi.org/10.1186/s43074-025-00222-2).
+
+- **2025.11.04** &nbsp; :speaker: Experimental dataset released. Click [**here**](https://zenodo.org/records/17523561) to visit the Zenodo repository.
 
 - **2025.07.09** &nbsp; :fire: Simulation code released.
 
@@ -97,14 +100,12 @@ The following table summarizes the average amplitude PSNR (dB) under varying sam
 ## Citation
 
 ```BibTex
-@article{gao2025model,
+@article{gao2026model,
   title={Model-based deep learning enables time-resolved computational microscopy},
   author={Gao, Yunhui and Cao, Liangcai},
-  journal={xxxx},
-  volume={xxxx},
-  number={xxxx},
-  pages={xxxx},
-  year={2025},
-  publisher={xxxx}
+  journal={PhotoniX},
+  volume={7},
+  pages={3},
+  year={2026}
 }
 ```
